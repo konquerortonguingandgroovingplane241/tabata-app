@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onUnmounted, watch } from "vue";
+import { ref, computed, onUnmounted } from "vue";
 
 // Timer States
 const WORK_TIME = ref(1);
@@ -79,7 +79,7 @@ onUnmounted(() => {
     <div class="container has-text-centered">
       <div class="my-5">
         <div class="card-content">
-          <div :class="['notification', isWorking ? 'is-primary' : 'is-link']">
+          <div :class="['notification', isWorking ? 'is-black' : 'is-dark']">
             <h2 class="subtitle is-4">{{ isWorking ? "WORK" : "REST" }}</h2>
             <p class="timer-display">{{ displayTime }}</p>
             <p class="subtitle is-6">Round {{ currentRound }} / {{ ROUNDS }}</p>
@@ -91,17 +91,17 @@ onUnmounted(() => {
         <div class="column is-narrow">
           <button
             v-if="!isActive"
-            class="button is-success is-large"
+            class="button is-black is-large"
             @click="startTimer"
           >
             <span>START</span>
           </button>
-          <button v-else class="button is-warning is-large" @click="pauseTimer">
+          <button v-else class="button is-dark is-large" @click="pauseTimer">
             <span>PAUSE</span>
           </button>
         </div>
         <div class="column is-narrow">
-          <button class="button is-danger is-large" @click="resetTimer">
+          <button class="button is-dark is-large" @click="resetTimer">
             <span>RESET</span>
           </button>
         </div>
