@@ -1,8 +1,13 @@
 {
   "name": "tabata-app",
+  "description": "Minimal tabata timer for your training!",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
+  "license": "MIT",
+  "authors": [
+    "Domenico Tenace"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
