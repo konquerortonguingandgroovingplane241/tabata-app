@@ -1,0 +1,19 @@
+@import "@dometena/plus-ultra";
+
+:root {
+  --safe-area-inset-top: env(safe-area-inset-top);
+  --safe-area-inset-bottom: env(safe-area-inset-bottom);
+}
+
+body {
+  padding-top: var(--safe-area-inset-top);
+  padding-bottom: var(--safe-area-inset-bottom);
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.timer-display {
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: monospace;
+}
